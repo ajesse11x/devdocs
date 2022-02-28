@@ -32,7 +32,7 @@ end
 
 group :docs do
   gem 'typhoeus'
-  gem 'nokogiri'
+  gem 'nokogiri', '>= 1.13.2'
   gem 'html-pipeline'
   gem 'image_optim'
   gem 'image_optim_pack', platforms: :ruby
