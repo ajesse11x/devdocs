@@ -5,7 +5,7 @@ gem 'rake'
 gem 'thor'
 gem 'pry', '~> 0.11.0'
 gem 'activesupport', '~> 5.2', require: false
-gem 'yajl-ruby', require: false
+gem 'yajl-ruby', '>= 1.4.2', require: false
 
 group :app do
   gem 'rack'
