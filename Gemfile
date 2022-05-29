@@ -8,7 +8,7 @@ gem 'activesupport', '~> 5.2', require: false
 gem 'yajl-ruby', require: false
 
 group :app do
-  gem 'rack'
+  gem 'rack', '>= 2.0.9.1'
   gem 'sinatra'
   gem 'sinatra-contrib'
   gem 'rack-ssl-enforcer'
