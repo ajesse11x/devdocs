@@ -13,7 +13,7 @@ group :app do
   gem 'sinatra-contrib'
   gem 'rack-ssl-enforcer'
   gem 'thin'
-  gem 'sprockets'
+  gem 'sprockets', '>= 4.2.0'
   gem 'sprockets-helpers'
   gem 'erubi'
   gem 'browser'
