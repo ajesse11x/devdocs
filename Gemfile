@@ -4,11 +4,11 @@ ruby '2.5.1'
 gem 'rake'
 gem 'thor'
 gem 'pry', '~> 0.11.0'
-gem 'activesupport', '~> 5.2', require: false
+gem 'activesupport', '~> 6.1', '>= 6.1.7.1', require: false
 gem 'yajl-ruby', require: false
 
 group :app do
-  gem 'rack'
+  gem 'rack', '>= 2.0.9.2'
   gem 'sinatra'
   gem 'sinatra-contrib'
   gem 'rack-ssl-enforcer'
