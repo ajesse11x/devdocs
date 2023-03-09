@@ -8,7 +8,7 @@ gem 'activesupport', '~> 5.2', require: false
 gem 'yajl-ruby', require: false
 
 group :app do
-  gem 'rack'
+  gem 'rack', '>= 2.0.9.3'
   gem 'sinatra'
   gem 'sinatra-contrib'
   gem 'rack-ssl-enforcer'
@@ -32,7 +32,7 @@ end
 
 group :docs do
   gem 'typhoeus'
-  gem 'nokogiri'
+  gem 'nokogiri', '>= 1.10.5'
   gem 'html-pipeline'
   gem 'image_optim'
   gem 'image_optim_pack', platforms: :ruby
