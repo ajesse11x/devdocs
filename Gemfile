@@ -4,13 +4,13 @@ ruby '2.5.1'
 gem 'rake'
 gem 'thor'
 gem 'pry', '~> 0.11.0'
-gem 'activesupport', '~> 5.2', require: false
+gem 'activesupport', '~> 6.1', '>= 6.1.7.5', require: false
 gem 'yajl-ruby', require: false
 
 group :app do
   gem 'rack'
   gem 'sinatra'
-  gem 'sinatra-contrib'
+  gem 'sinatra-contrib', '>= 2.0.5'
   gem 'rack-ssl-enforcer'
   gem 'thin'
   gem 'sprockets'
@@ -33,7 +33,7 @@ end
 group :docs do
   gem 'typhoeus'
   gem 'nokogiri'
-  gem 'html-pipeline'
+  gem 'html-pipeline', '>= 2.9.0'
   gem 'image_optim'
   gem 'image_optim_pack', platforms: :ruby
   gem 'progress_bar', require: false
