@@ -10,7 +10,7 @@ gem 'yajl-ruby', require: false
 group :app do
   gem 'rack'
   gem 'sinatra'
-  gem 'sinatra-contrib'
+  gem 'sinatra-contrib', '>= 2.0.5'
   gem 'rack-ssl-enforcer'
   gem 'thin'
   gem 'sprockets'
