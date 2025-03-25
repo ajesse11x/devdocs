@@ -32,8 +32,8 @@ end
 
 group :docs do
   gem 'typhoeus'
-  gem 'nokogiri'
-  gem 'html-pipeline'
+  gem 'nokogiri', '>= 1.18.4'
+  gem 'html-pipeline', '>= 3.0.0'
   gem 'image_optim'
   gem 'image_optim_pack', platforms: :ruby
   gem 'progress_bar', require: false
