@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.5.1'
 
 gem 'rake'
-gem 'thor'
+gem 'thor', '>= 1.4.0'
 gem 'pry', '~> 0.11.0'
 gem 'activesupport', '~> 5.2', require: false
 gem 'yajl-ruby', require: false
@@ -32,7 +32,7 @@ end
 
 group :docs do
   gem 'typhoeus'
-  gem 'nokogiri'
+  gem 'nokogiri', '>= 1.18.9'
   gem 'html-pipeline'
   gem 'image_optim'
   gem 'image_optim_pack', platforms: :ruby
